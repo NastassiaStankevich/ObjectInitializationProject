@@ -11,4 +11,6 @@ public class Student {
         alive = true;
     }
 
+    public
+
 }
