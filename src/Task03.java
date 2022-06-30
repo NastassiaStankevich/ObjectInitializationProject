@@ -1,5 +1,6 @@
 public class Task03 {
     public static void main(String[] args) {
+
         Student student = new Student("Alex", 20,9,true);
 
 
