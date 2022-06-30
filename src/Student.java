@@ -23,22 +23,13 @@ public class Student {
         age = a;
         mark = m;
         alive = al;
-    }
 
-    public  Student(String n){
-        name = n;
     }
-    public  Student(double m ){
-        mark = m;
+    // copy constructor
+    public Student(Student student){
+        name = student.name;
+        age = student.age;
+        mark = student.mark;
+        alive = student.alive;
     }
-    public  Student(String n, double m){
-        name = n;
-        mark = m;
-    }
-
-    public  Student(String n, boolean al){
-        name = n;
-        alive = al;
-    }
-
 }
