@@ -1,16 +1,17 @@
 public class Student {
     public String name;
     public int age;
-    public double mark;
+    public double mark = 4;
     public boolean alive;
 
+    // default constructor
     public Student(){
         name = "no name";
         age = 16;
         mark = 4;
         alive = true;
     }
-     // default constructor
+
     public String getInfo(){
         return  name + ": age = " + age
                 + ", mark = " + mark
@@ -32,4 +33,6 @@ public class Student {
         mark = student.mark;
         alive = student.alive;
     }
+
+
 }
